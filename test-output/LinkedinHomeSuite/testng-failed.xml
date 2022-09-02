@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [LinkedinHomeSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="LinkedinHomeTest(failed)">
+    <classes>
+      <class name="com.qa.linkedin.tastcases.LinkedinHomePageTest">
+        <methods>
+          <include name="verifyLinkedinTitle"/>
+          <include name="beforeClass"/>
+          <include name="verifyLinkedinLogo"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- com.qa.linkedin.tastcases.LinkedinHomePageTest -->
+    </classes>
+  </test> <!-- LinkedinHomeTest(failed) -->
+</suite> <!-- Failed suite [LinkedinHomeSuite] -->

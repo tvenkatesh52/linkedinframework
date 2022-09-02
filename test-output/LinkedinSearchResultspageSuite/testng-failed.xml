@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [LinkedinSearchResultspageSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="LinkedinSearchResultspageSuite(failed)">
+    <classes>
+      <class name="com.qa.linkedin.tastcases.LinkedinSearchResultsPageTest">
+        <methods>
+          <include name="doPeopleSearchTest" invocation-numbers="0 1 2"/>
+          <include name="beforeClass"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.qa.linkedin.tastcases.LinkedinSearchResultsPageTest -->
+    </classes>
+  </test> <!-- LinkedinSearchResultspageSuite(failed) -->
+</suite> <!-- Failed suite [LinkedinSearchResultspageSuite] -->
