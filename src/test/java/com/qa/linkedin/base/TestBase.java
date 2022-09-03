@@ -21,7 +21,8 @@ import org.testng.annotations.Parameters;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class TestBase {
-	//changes happening in remote repository to local  repository
+	//1.changes happening in remote repository to local  repository
+    //2.changes are happening local repository to remote repository
 	public static WebDriver driver=null;
 	public static WebDriverWait wait=null;
 	private File f=null;
